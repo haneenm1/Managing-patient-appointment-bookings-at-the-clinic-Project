@@ -1,0 +1,65 @@
+.revers-icon{
+  position: absolute;
+  top: 140px;
+  left: 50px;
+  height: 50px;
+  width: 60px;
+  z-index:101;
+  }
+  .pagetitle
+  {
+    position: absolute;
+    top: 90px;
+    left: 310px;
+    z-index:101;
+    font-size: 55px;
+  }
+  .table{
+    border-radius:80px;
+    }
+  
+    .Appt1{
+      width: 965px;
+    height: 350px;
+    position: absolute;
+    top:970px;
+    background-color: rgb(240 240 240);
+    box-shadow:3px 3px 1px rgba(0,0,0,0.1);
+    }
+  
+    tr{
+      border: none;
+      width: 100%; 
+  
+    }
+    td{
+      line-height:1.5;
+      text-align: center;
+    
+    }
+  
+    .date{
+      font-size: 30px;
+      font-weight: 700;
+    }
+  
+  .doctor-pic{
+    position: absolute;
+    top:250px;
+    left: 200px;
+    
+  }
+ .message-button{
+  position: absolute;
+  top:250px;
+  left: 200px;
+  width: 100px;
+ }
+ .book-appt{
+  width: 430px;
+  height: 90px;
+  font-size: 30px;
+  background-color: rgb(26, 83, 26);
+  color: white;
+  border-radius: 20px;
+ }

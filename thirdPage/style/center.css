@@ -1,0 +1,73 @@
+.revers-icon{
+position: absolute;
+top: 140px;
+left: 50px;
+height: 50px;
+width: 60px;
+z-index:101;
+}
+
+.pagetitle
+{
+  position: absolute;
+  top: 90px;
+  left: 350px;
+  z-index:101;
+  font-size: 55px;
+}
+.search-icon{
+position: absolute;
+top: 140px;
+right: 50px;
+height: 60px;
+width: 60px;
+z-index:101;
+}
+
+
+.contener{
+
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  position: absolute;
+  top:260px;
+}
+
+.message{
+
+margin-left:-3;
+height:300px;
+width:970px;
+border: 1px solid rgb(168, 168, 168);
+z-index: 101;
+border-left: none;
+border-right: none;
+}
+
+.message-pic{
+  width:220px;
+  position: relative;
+  top: 45px;
+  left: 30px;
+  border-radius: 100px;
+  z-index:-1;
+
+}
+
+
+.message-content1{
+ position: absolute;
+ top:60px;
+ left: 300px;
+ font-size: 40px;
+
+}
+
+.message-content2{
+  position: absolute;
+  top:120px;
+  left: 300px;
+  font-size: 30px;
+  color: rgb(180, 178, 178);
+
+ }

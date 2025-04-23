@@ -1,0 +1,140 @@
+
+body{
+  background-color: rgb(242, 244, 255);
+}
+
+
+.revers-icon{
+  position: absolute;
+  top: 140px;
+  left: 50px;
+  height: 50px;
+  width: 60px;
+  z-index:101;
+  }
+  
+  .pagetitle
+  {
+    position: absolute;
+    top: 90px;
+    left: 310px;
+    z-index:101;
+    font-size: 55px;
+  }
+  .search-icon{
+  position: absolute;
+  top: 140px;
+  right: 50px;
+  height: 60px;
+  width: 60px;
+  z-index:101;
+  }
+
+  .availble{
+    display: inline-block;
+    position: absolute;
+    top: 200px;
+    left: 190px;
+    z-index:110;
+    font-size: 45px;
+    text-decoration: underline rgb(84, 84, 255);
+    text-underline-offset: 24px;
+    text-decoration-thickness: 10px;
+    position: fixed;
+  }
+  .booked{
+    display: inline-block;
+    position: fixed;
+    top: 200px;
+    right:190px;
+    z-index:110;
+    font-size: 45px;
+  
+  }
+
+.contener{
+display: grid;
+grid-template-columns: 1fr 1fr  ;
+column-gap: 16px;
+row-gap: 20px;
+}
+.contan1{
+display: inline-block;
+width: 470px;
+height: 470px;
+border: 2px solid rgb(130, 132, 253);
+border-radius: 30px;
+background-color: rgb(255, 255, 255);
+}
+
+.appo-doctor{
+  width: 270px;
+  height: 320px;
+  margin-top: 20px ;
+  margin-left: 200px;
+  
+
+
+}
+.appo-doctor-name{
+  display: inline-block;
+  font-size: 35px;
+  position: relative;
+  bottom:290px;
+  left: 10px;
+}
+.department{
+  
+padding-left: 30px;
+ display: inline-block;
+ margin-right: 10px;
+ position: relative;
+ right: 240px;
+ font-size: 30px;
+ bottom:240px;
+
+}
+
+.star{
+  position: relative;
+  bottom:270px;
+  left: 10px;
+   width:30px;
+ 
+}
+.star1{
+  position: relative;
+  bottom:196px;
+  right: 290px;
+  width: 32px;
+  
+}
+.experience{
+  position:relative;
+  font-size: 30px;
+  bottom: 270px;
+  left: 10px;
+  color: rgb(116, 116, 116);
+}
+.years{
+  position:relative;
+  font-size: 30px;
+  bottom: 300px;
+  left: 10px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.Appo-Button{
+ position: relative;
+  bottom:260px;
+  left: 40px;
+ font-size: 30px;
+  padding: 15px;
+  padding-left: 80px;
+  padding-right: 80px;
+  border-radius: 50px;
+  border: 1px solid rgb(255, 255, 255) ;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 60, 170);
+ 
+}
